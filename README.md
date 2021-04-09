@@ -16,7 +16,7 @@ define('NAMBDAT','/* NOMBRE DE TU BASE DE DATOS*/');
 
  Host de la base de datos
  
-define('HOSBDAT','/* HOST (localhost en la mayoria de los casos)*/');
+define('HOSBDAT','/* HOST (**localhost** en la mayoria de los casos)*/');
 
 ### archivo class-mod-db.php
 
