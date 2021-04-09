@@ -33,4 +33,7 @@ Tabla users:
 Tabla licencias:
 ![alt text](halfegg-bd-lic.png)
 
+La tabla users se usa para validar a los usuarios al intentar hacer login.
+Mientras que la tabla licencias se utiliza para mostrar contenido privado solo accesible para los usuarios que estan logeados.
+
 
