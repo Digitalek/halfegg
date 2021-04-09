@@ -21,11 +21,12 @@ linea 13 - usuario y contraseña de la base de datos
 
 $dbh = new PDO($dsn, '/*usuario*/','/*contraseña*/'); // user & pasword
 
-Ebn esta version, se utilizan 2 tablas en la base de datos, es necesario crear las tablas manualmente
+En esta version, se utilizan 2 tablas en la base de datos, es necesario crear las tablas manualmente
 
 Tabla users:
 ![alt text](halfegg-bd-users.png)
 
 Tabla licencias:
+![alt text](halfegg-bd-lic.png)
 
 
