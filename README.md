@@ -12,17 +12,17 @@ Las credenciales para conectar con la base de datos se encuentran en dos archivo
 
  Nombre de base de  datos
 
-define('NAMBDAT','/* NOMBRE DE TU BASE DE DATOS*/');
+define('NAMBDAT','/*NOMBRE DE TU BASE DE DATOS*/');
 
  Host de la base de datos
  
-define('HOSBDAT','/* HOST (**localhost** en la mayoria de los casos)*/');
+define('HOSBDAT','/*HOST(**localhost** en la mayoria de los casos)*/');
 
 ### archivo class-mod-db.php
 
 linea 13 - usuario y contraseña de la base de datos
 
-$dbh = new PDO($dsn, '/*usuario*/','/*contraseña*/'); // user & pasword
+$dbh = new PDO($dsn, '/*USUARIO*/','/*CONTRASEÑA*/'); // user & pasword
 
 ## Estructura de Base de Datos
 En esta version, se utilizan 2 tablas en la base de datos, es necesario crear las tablas manualmente
