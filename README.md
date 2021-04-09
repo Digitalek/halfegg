@@ -3,7 +3,10 @@ Login/logout
 
 Este sistema de login / logout no tiene registro todavia
 
-Sera necesario crear la base de datos y al menos un usuario en la base de  datos. Las credenciales para conectar con la base de datos se encuentran en dos archivos:
+Sera necesario crear la base de datos y al menos un usuario en la base de datos siguiendo la estructura que se puede ver mas abajo. 
+
+
+Las credenciales para conectar con la base de datos se encuentran en dos archivos:
 
 archivo config.php
 
