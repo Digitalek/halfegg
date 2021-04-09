@@ -5,14 +5,17 @@ Este sistema de login / logout no tiene registro todavia
 
 Sera necesario crear la base de datos y al menos un usuario en la base de  datos. Las credenciales para conectar con la base de datos se encuentran en dos archivos:
 
-Config.php
+config.php
 
-// Nombre de base de  datos
+ Nombre de base de  datos
+
 define('NAMBDAT','/* NOMBRE DE TU BASE DE DATOS*/');
-// Host de la base de datos
+
+ Host de la base de datos
 define('HOSBDAT','/* HOST (localhost en la mayoria de los casos)*/');
 
 class-mod-db.php
+
 linea 13 - usuario y contraseña de la base de datos
 $dbh = new PDO($dsn, '/*usuario*/','/*contraseña*/'); // user & pasword
 
